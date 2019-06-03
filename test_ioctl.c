@@ -1,11 +1,11 @@
+
 #include <sys/ioctl.h>
 #include <string.h>
 #include <errno.h>
 #include <stdlib.h>
 #include <stdio.h>
 
-int
-main(int argc,char *argv[])
+int main(int argc,char *argv[])
 {
 	struct winsize ws;
 
